@@ -1,0 +1,66 @@
+body {
+    background-color: rgba(0, 202, 252, 0.548);
+    color: black;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+header {
+    background-color: lightgrey;
+    width: 960px;
+    height: auto;
+    text-indent: 15px;
+}
+
+nav {
+    background-color: beige;
+    text-indent: 15px;
+}
+
+section {
+    background-color: beige;
+    width: 580px;
+    height: 600px;
+    text-indent: 15px;
+}
+
+article {
+    background-color: beige;
+    width: 550px;
+    margin: 15px;
+    padding-top: 10px;
+}
+
+aside {
+    background-color: beige;
+    width: 360px;
+    height: 600px;
+    text-indent: 15px;
+}
+
+footer {
+    background-color: beige;
+    text-indent: 15px;
+}
+
+#principal {
+    /*Este é um princípio.*/
+    background-color: grey;
+    width: 960px;
+    height: auto;
+}
+
+#art1 {
+    background-color: blue;
+}
+
+#art2 {
+    background-color: white;
+}
+
+#art3 {
+    background-color: red;
+}
+
+.diferente {
+    font-size: 20px;
+}
