@@ -6,9 +6,10 @@ body {
 
 header {
     background-color: lightgrey;
-    width: 960px;
+    width: 957px;
     height: auto;
     text-indent: 15px;
+    border-style: solid;
 }
 
 nav {
@@ -21,25 +22,31 @@ section {
     width: 580px;
     height: 600px;
     text-indent: 15px;
+    border-style: solid;
 }
 
 article {
     background-color: beige;
     width: 550px;
-    margin: 15px;
+    margin: 8px;
     padding-top: 10px;
+    border-style: solid;
 }
 
 aside {
     background-color: beige;
-    width: 360px;
+    width: 380px;
     height: 600px;
+    margin-left: 577px;
+    margin-top: -605px;
     text-indent: 15px;
+    border-style: solid;
 }
 
 footer {
     background-color: beige;
     text-indent: 15px;
+    border-style: solid;
 }
 
 #principal {
@@ -47,6 +54,7 @@ footer {
     background-color: grey;
     width: 960px;
     height: auto;
+    border-style: solid;
 }
 
 #art1 {
