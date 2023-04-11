@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#principal{
+    width: 1440px;
+    margin: 0px auto;
+    background-color: orange;
+}
+
+header{
+    height: 193px;
+    background-image: url("../imagens/bck-header.jpg");
+    background-repeat: no-repeat;
+    background-size: 101%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#logo{
+    padding-top: 13px;
+    padding-left: 13px;
+}
+
+#logo img{
+    scale: 95%;
+}
+
+nav{
+    width: 600px;
+    height: 100px;
+    margin-right: 50%;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+ul li{
+    padding: 10px 15px;
+    background-color: white;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+}
+
+ul li:hover{
+    background-color: aqua;
+}
+
+ul li a{
+    text-decoration: none;
+    color: orangered;
+    font-weight: 600;
+    
+}
