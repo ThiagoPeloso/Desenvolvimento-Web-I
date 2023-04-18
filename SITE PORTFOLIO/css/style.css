@@ -7,7 +7,7 @@ body{
 #principal{
     width: 1440px;
     margin: 0px auto;
-    background-color: orange;
+    background-color: white;
 }
 
 header{
@@ -60,4 +60,28 @@ ul li a{
     color: orangered;
     font-weight: 600;
     
+}
+
+#meio{
+    background-color: red;
+    margin-top: 16px;
+    padding: 16px;
+}
+
+#primeiro-destaque{
+    width: 1000px;
+    height: 240px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#primeiro-destaque img{
+    padding: 8px;
+}
+
+#textos-destaque{
+    color: white;
+    width: 500px ;
 }
