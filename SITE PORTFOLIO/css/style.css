@@ -32,7 +32,7 @@ header{
 nav{
     width: 600px;
     height: 100px;
-    margin-right: 50%;
+    margin-right: 50px;
 }
 
 ul{
@@ -43,7 +43,15 @@ ul{
     height: 100px;
 }
 
-ul li{
+ul li a:hover{
+    background-color: red;
+    color: white;
+}
+
+ul li a{
+    text-decoration: none;
+    color: orangered;
+    font-weight: 600;
     padding: 10px 15px;
     background-color: white;
     border-radius: 20px;
@@ -51,21 +59,17 @@ ul li{
     -webkit-border-radius: 20px;
 }
 
-ul li:hover{
-    background-color: aqua;
-}
-
-ul li a{
-    text-decoration: none;
-    color: orangered;
-    font-weight: 600;
-    
-}
-
 #meio{
     background-color: red;
     margin-top: 16px;
     padding: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#esquerda{
+    display: flex;
+    flex-direction: column;
 }
 
 #primeiro-destaque{
@@ -84,4 +88,67 @@ ul li a{
 #textos-destaque{
     color: white;
     width: 500px ;
+}
+
+section{
+    background-color: white;
+    width: 1000px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.art{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.text-article{
+    color:grey
+}
+h2{
+    color: black;
+    font-size: 20px;
+}
+
+aside{
+    background-color: orange;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3{
+    color: white;
+}
+
+.text-aside{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+#aside-button li a{
+    background-color: red;
+    color: white;
+}
+#aside-button li a:hover{
+    background-color: white;
+    color: red;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    background-color: rgb(255, 102, 0);
+    color: white;
+    text-align: center;
 }
